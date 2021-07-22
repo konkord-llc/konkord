@@ -1,0 +1,24 @@
+{
+    "name": "konkord-llc/konkord",
+    "description": "Yandex Metrika API PHP",
+    "type": "library",
+    "keywords": ["api", "yandex", "metrika"],
+    "homepage": "https://github.com/konkord-llc/konkord",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Konkord\\": "src/"
+        }
+    },
+    
+    "authors": [
+        {
+            "name": "Artem Nevolko",
+            "email": "art-ti3@yandex.ru"
+        }
+    ],
+    "require": {
+    "php": ">=5.4.0"
+    },
+    "minimum-stability": "stable"
+}
